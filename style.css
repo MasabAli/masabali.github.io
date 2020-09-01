@@ -10,6 +10,8 @@ html {
 body {
   font-family: "Quicksand", sans-serif;
   color: #0f0c29;
+  margin: 0;
+  padding: 0;
 }
 a,
 a:hover {
@@ -385,13 +387,11 @@ a:hover {
   color: rgb(211, 189, 189);
   margin-right: 19px;
 }
-.projects h1 {
-  color: #fff;
-  text-align: center;
+.meet-masab img {
+ width: 100%;
+ height: auto;
 }
-.projects{
-	text-align: center;
-	margin: 0;
-	height: 500px;
-	background-color:#0f0c29;
+.meet{
+  margin-top: -150px;
+  
 }
