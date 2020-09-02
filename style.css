@@ -5,14 +5,64 @@ html {
 }
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
 }
 body {
   font-family: "Quicksand", sans-serif;
   color: #0f0c29;
-  margin: 0;
-  padding: 0;
 }
+/* nav style start */
+nav{
+  background: #0e71c8;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: #fff;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+ float: right;
+ margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  background-color:#302b63;
+  text-transform: uppercase;
+
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+/* nav css end */
 a,
 a:hover {
   text-decoration: none;
@@ -388,10 +438,10 @@ a:hover {
   margin-right: 19px;
 }
 .meet-masab img {
- width: 100%;
- height: auto;
-}
-.meet{
-  margin-top: -155px;
-  
-}
+  width: 100%;
+  height: auto;
+ }
+ .meet{
+   margin-top: -155px;
+   
+ }
