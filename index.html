@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <title>Masab Ali</title>
   </head>
   <body>
      <!-- nav-bar star -->
-     <section class="nav">
+     <section class="nav navbar-fixed-top">
       <nav>
         <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
@@ -17,13 +18,13 @@
         <label class="logo">Masab Ali</label>
         <ul>
           <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="images/2.png">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Feedback</a></li>
         </ul>
       </nav>
       <!-- nav-bar end -->
-   <section class="main">
+   <section class="main" id="home">
         <div class="wrapper">
       <div class="profile-card js-profile-card">
         <div class="profile-card__img">
@@ -267,20 +268,13 @@
     </svg>
 </section>
   <section class="meet">
-        <div class="meet-masab">
+        <div class="meet-masab" id="about">
           <img src="images/2.png" alt="">
         </div>
         
     </section>
+    <a class="gotopbtn" href="#"> <i class="fa fa-arrow-up"></i> </a>
     <script src="index.js"></script>
   </body>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176954081-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-176954081-1');
 </script>
 </html>
