@@ -463,9 +463,10 @@ a:hover {
 /* About Section Style Start */
 .about-section{
   background: url(images/IMG20190119131301-removebg-preview.png) no-repeat left;
-  background-size: 30%;
+  background-size: 44%;
   background-color: #fdfdfd;
   overflow: hidden;
+  padding-top: 180px;
   
 }
 
