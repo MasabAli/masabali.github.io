@@ -438,8 +438,8 @@ a:hover {
   margin-right: 19px;
 }
  .meet{
-   margin-top: px;
-   height: 700px;
+   margin-top: -100px;
+   height: 500px;
    
  }
  /* Arrow Button Style Start */
@@ -463,10 +463,9 @@ a:hover {
 /* About Section Style Start */
 .about-section{
   background: url(images/IMG20190119131301-removebg-preview.png) no-repeat left;
-  background-size: 44%;
+  background-size: 26%;
   background-color: #fdfdfd;
   overflow: hidden;
-  padding-top: 180px;
   
 }
 
